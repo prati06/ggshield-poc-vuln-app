@@ -1,6 +1,6 @@
-A pre-push hook is a client-side git hook that runs right before a reference is pushed to a remote (git push). Please refer to our learning center for more information.
+A pre-commit hook is a client-side git hook that runs right before a reference is pushed to a remote (git push). Please refer to our learning center for more information.
 
-GitGuardian pre-push hook is performed through our CLI application: ggshield. ggshield is a wrapper around the GitGuardian API for secrets detection that requires an API key to work.
+GitGuardian pre-commit hook is performed through our CLI application: ggshield. ggshield is a wrapper around the GitGuardian API for secrets detection that requires an API key to work.
 
 # The pre-commit framework
 In order to use GitGuardian shield with the pre-commit framework, you need to perform the following steps.

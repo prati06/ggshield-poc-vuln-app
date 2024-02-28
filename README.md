@@ -23,3 +23,4 @@ output will look like this if detect any secrets:
 
 ![Screenshot](screenshot.png)
 
+-----

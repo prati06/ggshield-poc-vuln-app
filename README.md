@@ -1,57 +1,22 @@
-# Vulnerable-Flask-App
+A pre-push hook is a client-side git hook that runs right before a reference is pushed to a remote (git push). Please refer to our learning center for more information.
 
-Erlik 2 - Vulnerable-Flask-App
+GitGuardian pre-push hook is performed through our CLI application: ggshield. ggshield is a wrapper around the GitGuardian API for secrets detection that requires an API key to work.
 
-Tested - Kali 2022.1
+# The pre-commit framework
+In order to use GitGuardian shield with the pre-commit framework, you need to perform the following steps.
 
-## Description
+Make sure you have the pre-commit framework installed
 
-It is a vulnerable Flask Web App. It is a lab environment created for people who want to improve themselves in the field of web penetration testing.
+Create a .pre-commit-config.yaml file in your repository's root path
 
-## Features
+Steps to use:
 
-It contains the following vulnerabilities.
+1.Sign in to your GitGuardian workspace and create a Personal Access Token from your personal settings.
+2.Add this Personal Access Token (API key) to the GITGUARDIAN_API_KEY environment variable in your repository.
+3. stage your changes
+4. commit your changes
 
--HTML Injection
+output will look like this if detect any secrets:
 
--XSS
+![Screenshot](screenshot.png)
 
--SSTI
-
--SQL Injection
-
--Information Disclosure
-
--Command Injection
-
--Brute Force
-
--Deserialization
-
--Broken Authentication
-
--DOS
-
--File Upload
-
-## Installation
-
-git clone https://github.com/anil-yelken/Vulnerable-Flask-App
-
-cd Vulnerable-Flask-App
-
-sudo pip3 install -r requirements.txt
-
-## Usage
-
-python3 vulnerable-flask-app.py
-
-<img src="https://github.com/anil-yelken/Vulnerable-Flask-App/blob/main/vulnerable-flask-app.jpg">
-
-## Contact
-
-https://twitter.com/anilyelken06
-
-https://medium.com/@anilyelken
-
-password

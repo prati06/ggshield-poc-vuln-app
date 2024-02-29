@@ -221,8 +221,8 @@ def uploadfile():
 
 
       '''
-
-
+conn_string = f"dbname='{DB_NAME}' user='{DB_USERNAME}' host='{DB_HOST}' password='{DB_PASSWORD}' port='{DB_PORT}'"
+PASSWORD = config('DB_PASSWORD')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8081)

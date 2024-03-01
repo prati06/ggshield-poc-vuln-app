@@ -225,9 +225,4 @@ def uploadfile():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8081)
-<<<<<<< HEAD
-
-print("Hello WOrld")
-=======
-print("Hello World")
->>>>>>> e4f3a411e972adf35155782340a1395ba9b4fbe9
+print("Hello")

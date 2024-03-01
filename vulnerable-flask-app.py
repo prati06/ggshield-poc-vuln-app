@@ -221,10 +221,13 @@ def uploadfile():
 
 
       '''
-conn_string = f"dbname='{DB_NAME}' user='{DB_USERNAME}' host='{DB_HOST}' password='{DB_PASSWORD}' port='{DB_PORT}'"
-PASSWORD = config('DB_PASSWORD')
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8081)
+<<<<<<< HEAD
 
 print("Hello WOrld")
+=======
+print("Hello World")
+>>>>>>> e4f3a411e972adf35155782340a1395ba9b4fbe9
